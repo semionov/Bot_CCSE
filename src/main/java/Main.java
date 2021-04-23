@@ -161,7 +161,7 @@ public class Main extends TelegramLongPollingBot {
         sendMessage.setText(text);
         try {
             setButtons(sendMessage);
-            execute(sendMessage.setText(text));  // (message.getText() + " " + text) как вариант
+            execute(sendMessage.setText(text));  // (message.getText() + " " + text)
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
