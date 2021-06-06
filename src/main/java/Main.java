@@ -54,6 +54,7 @@ public class Main extends TelegramLongPollingBot {
                     }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                    mainClass.sendMsg("290631155", "error in timer");
                 }
             }
         };
