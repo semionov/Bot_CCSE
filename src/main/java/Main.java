@@ -232,11 +232,11 @@ public class Main extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return "CCSE_exam_bot";
+        return "---";
     }
 
     public String getBotToken() {
-        return "1213851843:AAEYmoddKktWaYEd4ty4fiBjsyvoMJH8mW0";
+        return "---";
     }
 }
 
